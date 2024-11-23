@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Draw.io Export",
+  "version": "1.0",
+  "description": "Adds an export button to .geToolbar elements",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
