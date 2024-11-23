@@ -6,9 +6,9 @@ function copyToClipboard() {
             copyButton.click();
             setTimeout(() => {
                 document.querySelectorAll('div.geDialog button.geBtn')?.[3]?.click()
-            }, 0)
-            setTimeout(() => {
-                document.querySelectorAll('div.geDialog button.geBtn')?.[0]?.click()
+                setTimeout(() => {
+                    document.querySelectorAll('div.geDialog button.geBtn')?.[0]?.click()
+                }, 0)
             }, 0)
         }
     }, 100);
